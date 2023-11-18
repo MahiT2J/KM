@@ -5,9 +5,8 @@
 double calculateBMI(double weight, double height) {
     // BMI formula: weight (kg) / (height (m) * height (m))
     return weight / (height * height);
-}
 
-/*int main() {
+int main() {
     double weight, height;
 
     // Input weight in kilograms
@@ -25,6 +24,6 @@ double calculateBMI(double weight, double height) {
     std::cout << "BMI is: " << bmi << std::endl;
 
     return 0;
-}*/
+}
 
 
